@@ -1,0 +1,178 @@
+
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,h2,h3{
+  font-family:'Montserrat', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Section */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+.section-heading{
+font-size:3rem;
+line-height:1.5;
+font-weight: 600;
+}
+
+.big-heading{
+  font-size:3.15rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navigation bar */
+.navbar-brand{
+  font-size:2.5rem;
+  font-weight: bold;
+  font-family: ubuntu;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat-Light";
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.title-image{
+  width: 240px;
+  transform:  rotate(25deg);
+  position: absolute;
+  right:24%;
+
+}
+
+/* Features Section */
+
+#features{
+
+  position: relative;
+}
+
+.features-box{
+  padding:5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color:#ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+ background-color:#ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.5;
+  font-weight: 600;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.price-text{
+  font-size:3rem;
+  line-height:1.5;
+  font-weight: 600;
+}
+
+.card-heading{
+  font-family:'Montserrat';
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+@media (max-width: 1098px)
+{
+  .title-image{
+    position:static;
+    transform:rotate(0);
+    width: 240px;
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+}
+
+/* Call to Action */
+
+.cta-button{
+  margin:0 1%;
+}
+
+/* Footer Section */
+
+.social-icon{
+  margin:20px 10px;
+}
